@@ -12,10 +12,10 @@ const Menubar = () =>{
             }
             prevScrollpos = currentScrollPos;
             }
-
+ 
     return(
         <>
-            <div>
+            <div className='menu-wrap'>
                 <div className='web-logo'>
                     <div style={{display:"flex",justifyContent:"center",flexDirection:"column"}}>
                         <img src='./Images/HomeScreenImages/logo.svg' alt='preciso-fashion-logo' className='logo-img'/>
@@ -29,10 +29,8 @@ const Menubar = () =>{
                     <a href='/'>COLLECTIONS</a>
                 </div>
             </div>
-            <div style={{height:"100vh"}}></div>
-            <div style={{height:"100vh"}}></div>
-            <div style={{height:"100vh"}}></div>
         </>
+
     )
 }
 export default Menubar;

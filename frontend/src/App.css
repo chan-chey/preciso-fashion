@@ -9,7 +9,25 @@ body {
   overflow-x: hidden;
 }
 
+.section {
+  height: 100vh;
+}
+
 /* Font Imports */
+
+@font-face {
+  font-family: 'robotoLight';
+  src: url('./assets/fonts/roboto_light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoMedium';
+  src: url('./assets/fonts/roboto_medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'rutan';
   src: url('./assets/fonts/rutan/rutan.ttf') format('truetype'),

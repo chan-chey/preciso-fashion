@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import './App.css';
-import Menubar from './Components/Menubar/Menubar';
+import Products from './HomeScreen/Products/Products';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Menubar/>
+        <Products/>
       </div>
     )
   }

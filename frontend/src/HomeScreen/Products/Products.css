@@ -1,0 +1,33 @@
+.hero-banner {
+    height: 25vh;
+    width: 100%;
+}
+
+.hero-banner-img {
+    height: 100%;
+    width: 100%;
+}
+.products-container{
+    height: 60vh;
+    display: flex;
+}
+.product-wrap-one{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 1% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.product-title{
+    font-family: 'rutanThin';
+    color: #444444;
+    opacity: 1;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.product-text{
+    font-family: 'roboto';
+    font-size: 16px;
+}
