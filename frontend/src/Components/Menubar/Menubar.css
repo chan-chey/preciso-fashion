@@ -1,0 +1,43 @@
+.web-logo {
+    display: flex;
+    justify-content: center;
+    background-color: #A39076;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo-img {
+    width: 127px;
+    height: 45px;
+}
+
+.nav-links {
+    font-family: 'rutan';
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    letter-spacing: 2.56px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    position: fixed;
+    top: 85px;
+    right: 0;
+    left: 0;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#navbar {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}

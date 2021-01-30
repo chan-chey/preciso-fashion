@@ -1,4 +1,87 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Font Imports */
+@font-face {
+  font-family: 'rutan';
+  src: url('./assets/fonts/rutan/rutan.ttf') format('truetype'),
+    url('./assets//fonts/rutan/rutan.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rutanMedium';
+  src: url('./assets/fonts/rutan/rutan-medium.ttf') format('truetype'),
+    url('./assets/fonts/rutan/rutan-medium.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rutanLight';
+  src: url('./assets/fonts/rutan/rutan-light.ttf') format('truetype'),
+    url('./assets/fonts/rutan/rutan-light.ttf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rutanThin';
+  src: url('./assets/fonts/rutan/rutan-thin.ttf') format('truetype'),
+    url('./assets/fonts/rutan/rutan-thin.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rutanBold';
+  src: url('./assets/fonts/rutan/rutan-bold.ttf') format('truetype'),
+    url('./assets/fonts/rutan/rutan-bold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rutanDemibold';
+  src: url('./assets/fonts/rutan/rutan-demibold.ttf') format('truetype'),
+    url('./assets/fonts/rutan/rutan-demibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rutanBlack';
+  src: url('./assets/fonts/rutan/rutan-black.ttf') format('truetype'),
+    url('./assets/fonts/rutan/rutan-black.otf') format('otf');
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: 'dekiru';
+  src: url('./assets/fonts/dekiru/dekiru.ttf') format('truetype'),
+    url('./assets/fonts/dekiru/dekiru.otf') format('otf');
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: 'caudex';
+  src: url('./assets/fonts/caudex/caudexRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -20,7 +103,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin);  
   color: white;
 }
 
@@ -35,4 +118,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
