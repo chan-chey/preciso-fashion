@@ -25,6 +25,7 @@
     text-transform: uppercase;
     opacity: 1;
     position: fixed;
+    width: 100%;
     background-color: #ffff;
     top: 85px;
     right: 0;

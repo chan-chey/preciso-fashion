@@ -1,0 +1,30 @@
+.product-gallery-container{
+    display: flex;
+}
+.gallery-col-one{
+    width: 60%;
+    height: 85vh;
+    padding: 1% 0%;
+    margin-left: 1%;
+}
+.gallery-col-two{
+    width: 40%;
+    padding: 1% 0%;
+    margin: 0% 1%;
+    height: 85vh;
+}
+.gallery-img1
+,.gallery-img2{
+    height: 50%;
+    width: 100%;
+}
+.gallery-img1{
+    padding-bottom: 1%;
+}
+.gallery-img2{
+    padding-top: 1%;
+}
+.gallery-img3{
+    height: 100%;
+    width: 100%;
+}

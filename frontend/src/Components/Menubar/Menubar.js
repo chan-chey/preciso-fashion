@@ -2,16 +2,16 @@ import React from 'react';
 import './Menubar.css';
 
 const Menubar = () =>{
-    var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = "85px";
-            } else {
-                document.getElementById("navbar").style.top = "-50px";
-            }
-            prevScrollpos = currentScrollPos;
-            }
+     var prevScrollpos = window.pageYOffset;
+         window.onscroll = function() {
+         var currentScrollPos = window.pageYOffset;
+             if (prevScrollpos > currentScrollPos) {
+                 document.getElementById("navbar").style.top = "85px";
+             } else {
+                 document.getElementById("navbar").style.top = "0px";
+             }
+             prevScrollpos = currentScrollPos;
+             }
  
     return(
         <>
@@ -28,6 +28,7 @@ const Menubar = () =>{
                     <a href='/'>OUR BRANDS</a>
                     <a href='/'>COLLECTIONS</a>
                 </div>
+                
             </div>
         </>
 

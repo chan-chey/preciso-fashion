@@ -1,0 +1,11 @@
+.footer-wrap{
+    background-color: #A39076;
+    height: 50vh;
+    width: 100%;
+}
+.Footer-container{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
