@@ -5,7 +5,7 @@ const Design = () => {
     return(
         <>
         <div className='section design-section'>
-            <div className='design-title'>design I development I customize</div>
+            <div className='design-title'>Design I Development I Customize</div>
             <div className='design-wrap'>
                 <div className='design-col-one'>
                     <div className='design-text'>

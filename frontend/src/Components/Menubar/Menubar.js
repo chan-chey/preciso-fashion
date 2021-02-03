@@ -18,7 +18,7 @@ const Menubar = () =>{
             <div className='menu-wrap'>
                 <div className='web-logo'>
                     <div style={{display:"flex",justifyContent:"center",flexDirection:"column"}}>
-                        <img src='./Images/HomeScreenImages/logo.svg' alt='preciso-fashion-logo' className='logo-img'/>
+                        <a href='/'><img src='./Images/HomeScreenImages/logo.svg' alt='preciso-fashion-logo' className='logo-img'/></a>
                     </div>
                 </div>
                 <div className="nav-links" id='navbar'>

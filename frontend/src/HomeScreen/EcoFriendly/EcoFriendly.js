@@ -12,7 +12,7 @@ const EcoFriendly = () =>{
                     </div>
                     <div className='eco-col-two'>
                         <span className='border top-border'/>
-                            <div className='eco-title'>eco friendly</div>
+                            <div className='eco-title'>Eco Friendly</div>
                             <div className='eco-text'>
                                 The world is beautiful as we know it and to preserve this beauty, 
                                 it’s important that we recognize the need to contribute towards a more 

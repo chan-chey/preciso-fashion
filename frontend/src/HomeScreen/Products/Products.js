@@ -10,7 +10,7 @@ const Products = () =>{
                 <div className='products-container'>
                     <div className="product-wrap-one">
                         <span className='fine-line top-line'/>
-                            <div className="product-title">products</div>
+                            <div className="product-title">Products</div>
                             <div className="product-text">
                                 We have a vision to have our presence felt in homes and lives everywhere and 
                                 to fulfill this goal, we design and curate a wide variety of home décor and home 

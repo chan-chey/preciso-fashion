@@ -1,34 +1,31 @@
-.design-section{
-    background-color: #FFF9EF;
-    text-align: left;
+.design-section {
+  background-color: #fff9ef;
+  text-align: left;
 }
-.design-title{
-    text-align: center;
-    color: #444444;
-    opacity: 1;
-    font-family: 'robotoLight';
-    font-size: 50px;
+.design-title {
+  text-align: center;
+  color: #444444;
+  opacity: 1;
+  font-family: 'robotoLight';
+  font-size: 50px;
 }
-.design-wrap{
-    display: flex;
+.design-wrap {
+  display: flex;
 }
-.design-col-one
-,.design-col-two{
-    width: 50%;
-    padding: 1%;
+.design-col-one,
+.design-col-two {
+  width: 50%;
+  padding: 1%;
 }
-.design-img1{
-    width: 100%;   
-    height: 100%;
-    padding: 50px 0;
-
+.design-img1 {
+  width: 100%;
+  padding: 50px 0;
 }
-.design-img2{
-    width: 100%;
-    height: 100%;
-    padding: 50px 0;
+.design-img2 {
+  width: 100%;
+  padding: 50px 0;
 }
-.design-text{
-    font-family: 'roboto';
-    font-size: 16px;
+.design-text {
+  font-family: 'roboto';
+  font-size: 16px;
 }

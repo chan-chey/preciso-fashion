@@ -1,6 +1,71 @@
-.commitment-text{
-    text-align: center;
+.commitment-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
 }
-.commitment-title{
-    text-align: center;
+.commitment-text {
+  text-align: center;
+  color: #444444;
+  opacity: 1;
+  font-family: 'roboto';
+  font-size: 20px;
+}
+.commitment-title {
+  text-align: center;
+  font-family: 'robotoLight';
+  font-size: 50px;
+  color: #444444;
+  margin-bottom: 40px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image-grid {
+  padding-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.grid-container {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.grid-container:hover .overlay {
+  opacity: 0.52;
+}
+
+.text {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'roboto';
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #ffffff;
+  opacity: 1;
 }
