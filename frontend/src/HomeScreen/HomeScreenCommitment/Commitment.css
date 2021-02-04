@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 80vh;
+  height: 90vh;
 }
 .commitment-text {
   text-align: center;
@@ -16,7 +16,7 @@
   font-family: 'robotoLight';
   font-size: 50px;
   color: #444444;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 .container {
   display: flex;

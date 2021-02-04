@@ -3,7 +3,7 @@ import './ProductGallery.css';
 
 const ProductGallery = () =>{
     return(
-        <div className='section'>
+        <div className=''>
             <div className='product-gallery-container'>
                 <div className='gallery-col-one'>
                     <img src='./Images/HomeScreenImages/gallery1.png' alt='gallery-img1' className='gallery-img1'/>

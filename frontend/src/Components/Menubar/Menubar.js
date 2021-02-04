@@ -12,7 +12,6 @@ const Menubar = () =>{
              }
              prevScrollpos = currentScrollPos;
              }
- 
     return(
         <>
             <div className='menu-wrap'>
@@ -28,10 +27,8 @@ const Menubar = () =>{
                     <a href='/'>OUR BRANDS</a>
                     <a href='/'>COLLECTIONS</a>
                 </div>
-                
             </div>
         </>
-
     )
 }
 export default Menubar;

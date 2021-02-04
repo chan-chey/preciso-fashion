@@ -1,5 +1,4 @@
 import React from "react";
-import ReactPageScroller from "react-page-scroller";
 import Footer from "../../Components/Footer/Footer";
 import Design from "../Design/Design";
 import EcoFriendly from "../EcoFriendly/EcoFriendly";
@@ -40,14 +39,12 @@ export default class FullPage extends React.Component {
 
     return (
       <React.Fragment>
-        <ReactPageScroller>
             <Products/>
             <EcoFriendly/>
             <Design/>
             <Commitment/>
             <ProductGallery/>
             <Footer/>
-        </ReactPageScroller>
         {/* <Pager className="pagination-additional-class" bsSize="large"> 
           {pagesNumbers}
         </Pager>*/}

@@ -22,13 +22,13 @@ const Commitment = () =>{
                     <div className="grid-container">
                         <img src="./Images/HomeScreenImages/grid2.png" alt="Avatar" className="image"/>
                         <div className="overlay">
-                            <div className="text">FASHION</div>
+                            <div className="text">QUALITY</div>
                         </div>
                     </div>
                     <div className="grid-container">
                         <img src="./Images/HomeScreenImages/grid3.png" alt="Avatar" className="image"/>
                         <div className="overlay">
-                            <div className="text">DESIGN</div>
+                            <div className="text">DELIVERY</div>
                         </div>
                     </div>
                 </div>

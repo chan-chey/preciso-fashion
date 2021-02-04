@@ -1,6 +1,10 @@
 .design-section {
   background-color: #fff9ef;
   text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
 }
 .design-title {
   text-align: center;
@@ -8,6 +12,8 @@
   opacity: 1;
   font-family: 'robotoLight';
   font-size: 50px;
+  padding-bottom: 25px;
+  font-weight: 100;
 }
 .design-wrap {
   display: flex;
@@ -19,13 +25,19 @@
 }
 .design-img1 {
   width: 100%;
-  padding: 50px 0;
+  padding: 25px 0;
 }
 .design-img2 {
   width: 100%;
-  padding: 50px 0;
+  padding: 25px 0;
 }
 .design-text {
   font-family: 'roboto';
   font-size: 16px;
+  text-align: justify;
+}
+.pipeline {
+  border-right: 1px solid #444444;
+  margin: 1% 0%;
+  height: 15px;
 }
