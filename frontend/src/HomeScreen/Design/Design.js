@@ -13,7 +13,7 @@ const Design = () => {
               with products that are unique and specifically suited to their
               needs. To that end, our team is constantly designing and
               developing while remaining open to suggestions and preferences.
-                </div>
+            </div>
             <img
               src='./Images/HomeScreenImages/design1.png'
               alt='design-img1'
@@ -27,7 +27,7 @@ const Design = () => {
               mirror the requirements of our buyers. Our efforts to distinguish
               ourselves with innovation and design is visible in all our
               products.
-                </div>
+            </div>
             <img
               src='./Images/HomeScreenImages/design2.png'
               alt='design-img1'
@@ -39,4 +39,4 @@ const Design = () => {
     </>
   )
 }
-export default Design
+export default Design;

@@ -1,8 +1,8 @@
 import { React } from 'react';
 import './Footer.css';
 
-const Footer = () =>{
-    return(
+const Footer = () => {
+    return (
         <div className='footer-section'>
             <div className='footer-container'>
                 <div className='footer-row'>
@@ -15,7 +15,6 @@ const Footer = () =>{
                     </div>
                     <div className='footer-col border-right'>
                         <div className='footer-wrap'>
-                            <li>CONTACT US </li>
                             <li>LOCATION</li>
                             <li>LINKEDIN</li>
                             <li>ENQUIRY</li>
