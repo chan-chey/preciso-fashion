@@ -23,6 +23,7 @@ export default class Menubar extends Component {
         this.setState({ dropExpertDiv: false })
         this.setState({ dropProductDiv: false })
         this.setState({ dropCollectionDiv: false })
+        this.setState({ dropFabricDiv: false })
     }
     dropExpert = () => {
         const dropper = this.state.dropExpertDiv;
@@ -31,6 +32,7 @@ export default class Menubar extends Component {
         this.setState({ dropBrandDiv: false })
         this.setState({ dropProductDiv: false })
         this.setState({ dropCollectionDiv: false })
+        this.setState({ dropFabricDiv: false })
     }
     dropBrand = () => {
         const dropper = this.state.dropBrandDiv;
@@ -39,6 +41,7 @@ export default class Menubar extends Component {
         this.setState({ dropExpertDiv: false })
         this.setState({ dropProductDiv: false })
         this.setState({ dropCollectionDiv: false })
+        this.setState({ dropFabricDiv: false })
     }
     dropCollection = () => {
         const dropper = this.state.dropCollectionDiv;
@@ -47,6 +50,7 @@ export default class Menubar extends Component {
         this.setState({ dropBrandDiv: false })
         this.setState({ dropExpertDiv: false })
         this.setState({ dropProductDiv: false })
+        this.setState({ dropFabricDiv: false })
     }
     dropProduct = () => {
         const dropper = this.state.dropProductDiv;
@@ -55,6 +59,7 @@ export default class Menubar extends Component {
         this.setState({ dropBrandDiv: false })
         this.setState({ dropExpertDiv: false })
         this.setState({ dropCollectionDiv: false })
+        this.setState({ dropFabricDiv: false })
     }
     dropFabric = () => {
         const dropper = this.state.dropFabricDiv;
@@ -167,7 +172,7 @@ export default class Menubar extends Component {
                             this.state.dropProductDiv ?
                                 <div className="menu-dropdown" onMouseLeave={this.dropProduct} onClick={this.dropProduct}>
                                     <div className="submenu-col-div">
-                                        <Link to="/OurProducts" className="submenu-nav">Our Products</Link>
+                                        <Link to="/OurProducts" className="submenu-nav" onClick={this.dropProduct}>Our Products</Link>
                                         <Link to="/OurFabric" className="submenu-nav" onClick={this.dropFabric} style={{ color: "rgba(0,0,0,0.5)" }}>Our Fabric</Link>
                                         <Link to="/PrivateLabel" className="submenu-nav" style={{ color: "rgba(0,0,0,0.5)" }}>Private Label</Link>
                                     </div>
@@ -191,7 +196,7 @@ export default class Menubar extends Component {
                             this.state.dropFabricDiv ?
                                 <div className="menu-dropdown" onMouseLeave={this.dropFabric} >
                                     <div className="submenu-col-div">
-                                        <Link to="/OurProducts" className="submenu-nav" style={{ color: "rgba(0,0,0,0.5)" }}>Our Products</Link>
+                                        <Link to="/OurProducts" className="submenu-nav" style={{ color: "rgba(0,0,0,0.5)" }} onClick={this.dropProduct}>Our Products</Link>
                                         <Link to="/OurFabric" className="submenu-nav" onClick={this.dropFabric}>Our Fabric</Link>
                                         <Link to="/PrivateLabel" className="submenu-nav" style={{ color: "rgba(0,0,0,0.5)" }}>Private Label</Link>
                                     </div>

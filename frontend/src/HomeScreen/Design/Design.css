@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
 }
 .design-title {
   text-align: center;
@@ -18,18 +18,19 @@
 .design-wrap {
   display: flex;
 }
-.design-col-one,
-.design-col-two {
-  width: 50%;
-  padding: 1%;
+.design-col-one {
+  width: 100%;
+  padding: 15px;
 }
 .design-img1 {
-  width: 100%;
-  padding: 25px 0;
+  width: 50%;
+  padding: 15px 8px 15px 0px;
+  height: 70vh;
 }
 .design-img2 {
-  width: 100%;
-  padding: 25px 0;
+  width: 50%;
+  height: 70vh;
+  padding: 15px 0px 15px 7px;
 }
 .design-text {
   font-family: 'roboto';
@@ -40,4 +41,7 @@
   border-right: 1px solid #444444;
   margin: 1% 0%;
   height: 15px;
+}
+.img-flex {
+  display: flex;
 }

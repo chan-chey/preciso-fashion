@@ -1,8 +1,9 @@
 .eco-container {
-  height: 50vh;
+  height: 100%;
 }
 .eco-wrap {
   display: flex;
+  height: 100%;
   padding: 0px 15px;
 }
 .eco-col-one {
@@ -67,4 +68,13 @@
   color: #444444;
   text-align: right;
   margin: 1% 0%;
+}
+/* ---------------------- MEDIA QUERIES------------------------        */
+@media only screen and (max-width: 1440px) {
+  .eco-col-two {
+    padding-left: 15%;
+  }
+}
+.eco-section {
+  height: 100vh;
 }
