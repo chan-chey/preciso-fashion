@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../Components/Footer/Footer";
 import Design from "../Design/Design";
 import EcoFriendly from "../EcoFriendly/EcoFriendly";
 import Commitment from "../HomeScreenCommitment/Commitment";
@@ -7,44 +6,43 @@ import ProductGallery from "../ProductGallery/ProductGallery";
 import Products from "../Products/Products";
 
 export default class FullPage extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = { currentPage: null };
-//   }
+  //   constructor(props) {
+  //     super(props);
+  //     this.state = { currentPage: null };
+  //   }
 
-//   handlePageChange = number => {
-//     this.setState({ currentPage: number });
-//   };
+  //   handlePageChange = number => {
+  //     this.setState({ currentPage: number });
+  //   };
 
-//   handleBeforePageChange = number => {
-//     console.log(number);
-//   };
+  //   handleBeforePageChange = number => {
+  //     console.log(number);
+  //   };
 
-//   getPagesNumbers = () => {
-//     const pageNumbers = [];
+  //   getPagesNumbers = () => {
+  //     const pageNumbers = [];
 
-//     for (let i = 1; i <= 5; i++) {
-//       pageNumbers.push(
-//         <Pager.Item key={i} eventKey={i - 1} onSelect={this.handlePageChange}>
-//           {i}
-//         </Pager.Item>,
-//       );
-//     }
+  //     for (let i = 1; i <= 5; i++) {
+  //       pageNumbers.push(
+  //         <Pager.Item key={i} eventKey={i - 1} onSelect={this.handlePageChange}>
+  //           {i}
+  //         </Pager.Item>,
+  //       );
+  //     }
 
-//     return [...pageNumbers];
-//   };
+  //     return [...pageNumbers];
+  //   };
 
   render() {
     // const pagesNumbers = this.getPagesNumbers();
 
     return (
       <React.Fragment>
-            <Products/>
-            <EcoFriendly/>
-            <Design/>
-            <Commitment/>
-            <ProductGallery/>
-            <Footer/>
+        <Products />
+        <EcoFriendly />
+        <Design />
+        <Commitment />
+        <ProductGallery />
         {/* <Pager className="pagination-additional-class" bsSize="large"> 
           {pagesNumbers}
         </Pager>*/}

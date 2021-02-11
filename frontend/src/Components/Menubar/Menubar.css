@@ -34,7 +34,11 @@
 .nav-links a {
   color: #000000;
   text-decoration: none;
-  margin-right: 30px;
+  width: max-content;
+  margin-right: 40px;
+}
+.nav-links a:last-child {
+  margin-right: 0px;
 }
 #navbar {
   position: fixed;
@@ -56,8 +60,77 @@
 }
 .menu-dropdown {
   position: absolute;
-  width: inherit;
+  width: 100%;
   height: 25vh;
   top: 50px;
-  background-color: rgba(255, 255, 255, 0.493);
+  background-color: rgba(255, 255, 255, 0.88);
+  animation: drop 0.7s;
+  display: flex;
+  justify-content: center;
+}
+.menu-dropdown-sub {
+  position: absolute;
+  width: 100%;
+  height: 25vh;
+  top: 50px;
+  background-color: rgba(255, 255, 255, 0.88);
+  animation: drop 0.7s;
+  display: flex;
+  justify-content: center;
+}
+@keyframes drop {
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: 25vh;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.submenu-col-one {
+  width: 420.28px;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  animation: fade 0.5s;
+  justify-content: center;
+}
+.submenu-col-two {
+  width: 420.28px;
+  animation: fade 0.5s;
+  height: 25vh;
+  display: flex;
+}
+.submenu-nav {
+  font-family: 'rutan';
+  font-size: 14px;
+  text-align: left;
+  padding: 5px 0px;
+}
+.submenu-divider {
+  width: 50%;
+  animation: drop 0.7s;
+  padding: 15px 0px 15px 0px;
+}
+.submenu-divider img {
+  width: 100%;
+  height: 100%;
+}
+.smd {
+  padding-right: 15px;
+}
+.submenu-col-div {
+  width: 210.14px;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  animation: fade 0.5s;
+  justify-content: center;
 }

@@ -2,8 +2,13 @@
   width: 50%;
   height: 100%;
   display: flex;
-  padding: 0 10px;
   flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+Form {
+  height: 100vh;
+  padding: 15px;
 }
 .contact-col-two {
   height: 100%;
@@ -53,7 +58,7 @@
 .submit-btn-control {
   display: flex;
   justify-content: center;
-  padding: 20px 0px;
+  padding-top: 40px;
 }
 .enquiry {
   height: 30px;
