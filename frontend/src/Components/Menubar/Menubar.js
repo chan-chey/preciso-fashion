@@ -181,20 +181,20 @@ export default class Menubar extends Component {
                                         <Link to="/OurFabric" className="submenu-nav">Gifts</Link>
                                         <Link to="/PrivateLabel" className="submenu-nav">Tableware</Link>
                                         <Link to="/PrivateLabel" className="submenu-nav">Storage</Link>
-                                        <Link to="/PrivateLabel" className="submenu-nav">Accessories</Link>
-                                        <Link to="/PrivateLabel" className="submenu-nav">Stationary</Link>
-                                        <Link to="/PrivateLabel" className="submenu-nav">Promotional</Link>
-
                                     </div>
                                     <div className="submenu-col-two">
-                                        <div className="submenu-divider smd"><img src="./Images/HomeScreenImages/sub-menu.png" alt="submenu-img" /></div>
+                                        <div className="smd"><div className="submenu-col-div">
+                                            <Link to="/PrivateLabel" className="submenu-nav">Accessories</Link>
+                                            <Link to="/PrivateLabel" className="submenu-nav">Stationary</Link>
+                                            <Link to="/PrivateLabel" className="submenu-nav">Promotional</Link>
+                                        </div></div>
                                         <div className="submenu-divider"><img src="./Images/HomeScreenImages/submenu.png" alt="submenu-img" /></div>
                                     </div>
                                 </div> : null
                         }
                         {
                             this.state.dropFabricDiv ?
-                                <div className="menu-dropdown" onMouseLeave={this.dropFabric} >
+                                <div className="menu-dropdown" onMouseLeave={this.dropFabric} onClick={this.dropProduct}>
                                     <div className="submenu-col-div">
                                         <Link to="/OurProducts" className="submenu-nav" style={{ color: "rgba(0,0,0,0.5)" }} onClick={this.dropProduct}>Our Products</Link>
                                         <Link to="/OurFabric" className="submenu-nav" onClick={this.dropFabric}>Our Fabric</Link>
@@ -204,13 +204,15 @@ export default class Menubar extends Component {
                                         <Link to="/OurProducts" className="submenu-nav">Cotton</Link>
                                         <Link to="/PrivateLabel" className="submenu-nav">Felt</Link>
                                         <Link to="/PrivateLabel" className="submenu-nav">Linen</Link>
-                                        <Link to="/PrivateLabel" className="submenu-nav">Hemp</Link>
-                                        <Link to="/PrivateLabel" className="submenu-nav">Recycled</Link>
-                                        <Link to="/PrivateLabel" className="submenu-nav">Organic</Link>
-
                                     </div>
                                     <div className="submenu-col-two">
-                                        <div className="submenu-divider smd"><img src="./Images/HomeScreenImages/sub-menu.png" alt="submenu-img" /></div>
+                                        <div className="smd">
+                                            <div className="submenu-col-div">
+                                                <Link to="/PrivateLabel" className="submenu-nav">Hemp</Link>
+                                                <Link to="/PrivateLabel" className="submenu-nav">Recycled</Link>
+                                                <Link to="/PrivateLabel" className="submenu-nav">Organic</Link>
+                                            </div>
+                                        </div>
                                         <div className="submenu-divider"><img src="./Images/HomeScreenImages/submenu.png" alt="submenu-img" /></div>
                                     </div>
                                 </div> : null

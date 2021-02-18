@@ -134,3 +134,8 @@
   animation: fade 0.5s;
   justify-content: center;
 }
+@media only screen and (max-width:992px){
+  .nav-links a{
+    margin-right: 20px;
+  }
+}
