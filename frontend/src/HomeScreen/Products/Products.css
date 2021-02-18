@@ -112,7 +112,7 @@
   .product-wrap-one,
   .product-wrap-two {
     width: 100%;
-    height: 60%;
+    height: 285px;
   }
   .products-container {
     flex-wrap: wrap;
@@ -134,11 +134,13 @@
   }
   .eco-col-one {
     width: 100%;
-    height: 50%;
+    height: 400px;
     margin-top: 15px;
+    margin-bottom: 15px;
   }
   .eco-section {
     margin-top: 100px;
+    height: auto;
   }
   .design-img1,
   .design-img2 {
@@ -146,5 +148,27 @@
   }
   .design-title {
     font-size: 26px;
+  }
+  .design-text {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'robotoLight';
+  }
+  .design-section {
+    height: 75vh;
+  }
+  .commitment-title {
+    font-size: 26px;
+  }
+  .commitment-text {
+    font-family: 'robotoLight';
+    font-size: 14px;
+    text-align: center;
+  }
+  .grid-container {
+    width: 31%;
+  }
+  .commitment-section {
+    height: 70vh;
   }
 }
