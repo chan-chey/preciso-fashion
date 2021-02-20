@@ -293,6 +293,9 @@
     height: 200px;
     padding-top: 7px;
   }
+  .grid-container img {
+    height: 100%;
+  }
   .sum {
     margin: 0px -8px;
   }
