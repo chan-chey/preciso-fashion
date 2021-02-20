@@ -6,7 +6,7 @@ const Products = () => {
     <React.Fragment>
       <div className='section'>
         <Carousel className='hero-banner'>
-          <Carousel.Item interval={2000} className='hero-banner-img'>
+          <Carousel.Item interval={3000} className='hero-banner-img'>
             <img
               className='hero-banner-img'
               src='./Images/HomeScreenImages/natural.png'
