@@ -1,6 +1,6 @@
 .product-gallery-container {
   display: flex;
-  padding: 15px;
+  padding: 10px;
 }
 .gallery-col-one {
   width: 60%;
@@ -14,10 +14,10 @@
   width: 100%;
 }
 .gallery-img1 {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .gallery-img3 {
   height: 100%;
   width: 100%;
-  padding-left: 15px;
+  padding-left: 10px;
 }

@@ -19,17 +19,17 @@
 }
 .design-col-one {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
 }
 .design-img1 {
   width: 50%;
-  padding: 15px 8px 15px 0px;
+  padding: 10px 5px 10px 0px;
   height: 70vh;
 }
 .design-img2 {
   width: 50%;
   height: 70vh;
-  padding: 15px 0px 15px 7px;
+  padding: 10px 0px 10px 5px;
 }
 .design-text {
   font-family: 'roboto';
@@ -39,7 +39,7 @@
 .pipeline {
   border-right: 1px solid #444444;
   margin: 1% 0%;
-  height: 15px;
+  height: 10px;
 }
 .img-flex {
   display: flex;

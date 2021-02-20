@@ -78,7 +78,7 @@ export default class Menubar extends Component {
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = "85px";
+                document.getElementById("navbar").style.top = "65px";
             } else {
                 document.getElementById("navbar").style.top = "0px";
             }
@@ -176,7 +176,7 @@ export default class Menubar extends Component {
                                         <Link to="/OurFabric" className="submenu-nav" onClick={this.dropFabric} style={{ color: "rgba(0,0,0,0.5)" }}>Our Fabric</Link>
                                         <Link to="/PrivateLabel" className="submenu-nav" style={{ color: "rgba(0,0,0,0.5)" }}>Private Label</Link>
                                     </div>
-                                    <div className="submenu-col-div">
+                                    <div className="submenu-col-div sub-cont">
                                         <Link to="/OurProducts" className="submenu-nav">Bags</Link>
                                         <Link to="/OurFabric" className="submenu-nav">Gifts</Link>
                                         <Link to="/PrivateLabel" className="submenu-nav">Tableware</Link>
@@ -217,6 +217,7 @@ export default class Menubar extends Component {
                                     </div>
                                 </div> : null
                         }
+
 
 
                         <Link to="/ContactUs" >CONTACT US</Link>

@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   background-color: #a39076;
-  height: 85px;
+  height: 64px;
   width: 100%;
   position: fixed;
   z-index: 2;
 }
 .menu-wrap {
-  height: 135px;
+  height: 95px;
   z-index: 5;
 }
 .logo-img {
@@ -19,7 +19,7 @@
   font-family: 'rutan';
   display: flex;
   justify-content: center;
-  padding: 15px 0;
+  padding-top: 5px;
   letter-spacing: 2.56px;
   color: #000000;
   text-transform: uppercase;
@@ -27,22 +27,29 @@
   position: fixed;
   width: 100%;
   background-color: #ffff;
-  top: 85px;
+  top: 65px;
   right: 0;
   left: 0;
+  height: 30px;
 }
 .nav-links a {
   color: #000000;
   text-decoration: none;
   width: max-content;
   margin-right: 40px;
+  font-family: 'rutan';
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav-links a:hover{
+  text-decoration: none;
+  color: #000000;
 }
 .nav-links a:last-child {
   margin-right: 0px;
 }
 #navbar {
   position: fixed;
-  top: 85px;
   width: 100vw;
   transition: top 0.8s;
   background-color: #fff;
@@ -61,8 +68,8 @@
 .menu-dropdown {
   position: absolute;
   width: 100%;
-  height: 25vh;
-  top: 50px;
+  height: 31vh;
+  top: 30px;
   background-color: rgba(255, 255, 255, 0.88);
   animation: drop 0.7s;
   display: flex;
@@ -83,7 +90,7 @@
     height: 0vh;
   }
   100% {
-    height: 25vh;
+    height: 31vh;
   }
 }
 @keyframes fade {
@@ -96,7 +103,7 @@
 }
 .submenu-col-one {
   width: 420.28px;
-  height: 25vh;
+  height: 31vh;
   display: flex;
   flex-direction: column;
   animation: fade 0.5s;
@@ -105,7 +112,7 @@
 .submenu-col-two {
   width: 420.28px;
   animation: fade 0.5s;
-  height: 25vh;
+  height:31vh;
   display: flex;
 }
 .submenu-nav {
@@ -137,5 +144,9 @@
 @media only screen and (max-width:992px){
   .nav-links a{
     margin-right: 20px;
+    font-size: 13px;
   }
+}
+.sub-cont{
+  padding-top: 35px;
 }

@@ -4,7 +4,7 @@
 .eco-wrap {
   display: flex;
   height: 100%;
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
 .eco-col-one {
   width: 40%;
@@ -27,7 +27,7 @@
 .eco-img-two {
   width: 50%;
   height: 100%;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 .eco-title {
   text-align: right;
