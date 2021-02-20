@@ -9,10 +9,11 @@
   text-align: center;
   color: #444444;
   opacity: 1;
-  font-family: 'robotoLight';
-  font-size: 50px;
+  font-family: 'robotoThin';
+  font-size: 44px;
   padding-bottom: 25px;
   font-weight: 100;
+  margin-top: 30px;
 }
 .design-wrap {
   display: flex;
@@ -32,9 +33,10 @@
   padding: 10px 0px 10px 5px;
 }
 .design-text {
-  font-family: 'roboto';
-  font-size: 17px;
-  text-align: justify;
+  font-family: 'robotoRegular';
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .pipeline {
   border-right: 1px solid #444444;

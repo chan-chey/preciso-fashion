@@ -8,12 +8,12 @@
   text-align: center;
   color: #444444;
   opacity: 1;
-  font-family: 'roboto';
+  font-family: 'robotoRegular';
   font-size: 20px;
 }
 .commitment-title {
   text-align: center;
-  font-family: 'robotoLight';
+  font-family: 'robotoThin';
   font-size: 50px;
   color: #444444;
   margin-bottom: 25px;
@@ -24,7 +24,7 @@
   flex-direction: column;
 }
 .image-grid {
-  padding-top: 30px;
+  margin-top: 50px;
   display: flex;
   width: 100%;
   justify-content: space-between;

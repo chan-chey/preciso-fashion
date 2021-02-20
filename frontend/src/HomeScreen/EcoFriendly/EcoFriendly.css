@@ -5,20 +5,20 @@
   display: flex;
   height: 100%;
   padding: 0px 10px;
+  margin-bottom: 10px;
 }
 .eco-col-one {
-  width: 40%;
+  width: 50%;
   display: flex;
   height: 85vh;
 }
 .eco-col-two {
-  width: 60%;
+  width: 50%;
   position: relative;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   height: 85vh;
-  padding-left: 25%;
 }
 .eco-img-one {
   width: 50%;
@@ -31,7 +31,7 @@
 }
 .eco-title {
   text-align: right;
-  font-family: 'rutanThin';
+  font-family: 'robotoThin';
   color: #444444;
   opacity: 1;
   font-size: 50px;
@@ -39,7 +39,7 @@
 }
 .eco-text {
   text-align: right;
-  font-family: 'roboto';
+  font-family: 'robotoRegular';
   font-size: 17px;
 }
 .eco-link {
@@ -69,12 +69,8 @@
   text-align: right;
   margin: 1% 0%;
 }
+.eco-text-group {
+  width: 75%;
+  margin-left: auto;
+}
 /* ---------------------- MEDIA QUERIES------------------------        */
-@media only screen and (max-width: 1440px) {
-  .eco-col-two {
-    padding-left: 15%;
-  }
-}
-.eco-section {
-  height: 100vh;
-}
