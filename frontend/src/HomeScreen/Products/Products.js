@@ -12,6 +12,9 @@ const Products = () => {
               src='./Images/HomeScreenImages/natural.png'
               alt='herobanner1'
             />
+            <Carousel.Caption className="caro">
+              NATURAL
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000} className='hero-banner-img'>
             <img
@@ -19,6 +22,9 @@ const Products = () => {
               src='./Images/HomeScreenImages/sustain.png'
               alt='herobanner2'
             />
+            <Carousel.Caption className="caro">
+              sustainable
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000} className='hero-banner-img'>
             <img
@@ -26,9 +32,11 @@ const Products = () => {
               src='./Images/HomeScreenImages/eco.png'
               alt='herobanner3'
             />
+            <Carousel.Caption className="caro eco-carousel-text">
+              eco friendly
+            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-
         <div className='products-container'>
           <div className='product-wrap-one'>
             <div className='product-text-wrap'>

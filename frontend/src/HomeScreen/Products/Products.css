@@ -321,3 +321,87 @@
     height: auto;
   }
 }
+.dd {
+  animation: slide 0.5s;
+}
+.caro {
+  animation: slide 3s;
+  text-align: center;
+  font-family: 'robotoMedium';
+  font-size: 124px;
+  letter-spacing: 19.84px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 0.5;
+  background-color: transparent;
+  box-shadow: none;
+  text-shadow: none;
+}
+.carousel-caption {
+  z-index: 0 !important;
+}
+.eco-carousel-text {
+  letter-spacing: 2px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(300%);
+  }
+  50% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .carousel-caption {
+    top: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .caro {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .caro {
+    font-size: 80px;
+    letter-spacing: 5px;
+  }
+  .eco-carousel-text {
+    letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 675px) {
+  .caro {
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+  .eco-carousel-text {
+    letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .caro {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+  .eco-carousel-text {
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .caro {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+  .eco-carousel-text {
+    letter-spacing: 1px;
+  }
+}

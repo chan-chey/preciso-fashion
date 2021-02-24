@@ -114,7 +114,6 @@ export default class Menubar extends Component {
               <div
                 className='menu-dropdown'
                 onMouseLeave={this.dropAbout}
-                onClick={this.dropHome}
               >
                 <div className='submenu-col-one'>
                   <Link to='/Identity' className='submenu-nav'>
@@ -207,6 +206,7 @@ export default class Menubar extends Component {
                     to='/OurProducts'
                     className='submenu-nav'
                     onClick={this.dropProduct}
+                    onMouseEnter={this.dropProduct}
                   >
                     Our Products
                   </Link>
@@ -214,6 +214,7 @@ export default class Menubar extends Component {
                     to='/OurFabric'
                     className='submenu-nav'
                     onClick={this.dropFabric}
+                    onMouseEnter={this.dropFabric}
                   >
                     Our Fabric
                   </Link>
@@ -234,8 +235,8 @@ export default class Menubar extends Component {
 
             {this.state.dropProductDiv ? (
               <div
-                className='menu-dropdown'
-                onMouseLeave={this.dropProduct}
+                className='menu-dropdown product-dropdown'
+                onMouseEnter={this.dropProduct}
                 onClick={this.dropProduct}
               >
                 <div className='submenu-col-div'>
@@ -243,6 +244,7 @@ export default class Menubar extends Component {
                     to='/OurProducts'
                     className='submenu-nav'
                     onClick={this.dropProduct}
+                    onMouseEnter={this.dropProduct}
                   >
                     Our Products
                   </Link>
@@ -250,6 +252,7 @@ export default class Menubar extends Component {
                     to='/OurFabric'
                     className='submenu-nav'
                     onClick={this.dropFabric}
+                    onMouseEnter={this.dropFabric}
                     style={{ color: 'rgba(0,0,0,0.5)' }}
                   >
                     Our Fabric
@@ -263,34 +266,34 @@ export default class Menubar extends Component {
                   </Link>
                 </div>
                 <div className='submenu-col-div sub-cont'>
-                  <Link to='/OurProducts' className='submenu-nav'>
+                  <Link to='/Bags' className='submenu-nav'>
                     Bags
                   </Link>
-                  <Link to='/OurFabric' className='submenu-nav'>
+                  <Link to='/Gifts' className='submenu-nav'>
                     Gifts
                   </Link>
-                  <Link to='/PrivateLabel' className='submenu-nav'>
+                  <Link to='/Tableware' className='submenu-nav'>
                     Tableware
                   </Link>
-                  <Link to='/PrivateLabel' className='submenu-nav'>
+                  <Link to='/Storage' className='submenu-nav'>
                     Storage
                   </Link>
                 </div>
-                <div className='submenu-col-two'>
+                <div className='submenu-col-two '>
                   <div className='smd'>
                     <div className='submenu-col-div'>
-                      <Link to='/PrivateLabel' className='submenu-nav'>
+                      <Link to='/Accessories' className='submenu-nav'>
                         Accessories
                       </Link>
-                      <Link to='/PrivateLabel' className='submenu-nav'>
+                      <Link to='/Stationary' className='submenu-nav'>
                         Stationary
                       </Link>
-                      <Link to='/PrivateLabel' className='submenu-nav'>
+                      <Link to='/Promotional' className='submenu-nav'>
                         Promotional
                       </Link>
                     </div>
                   </div>
-                  <div className='submenu-divider'>
+                  <div className='submenu-dividers  '>
                     <img
                       src='./Images/HomeScreenImages/submenu.png'
                       alt='submenu-img'
@@ -301,8 +304,8 @@ export default class Menubar extends Component {
             ) : null}
             {this.state.dropFabricDiv ? (
               <div
-                className='menu-dropdown'
-                onMouseLeave={this.dropFabric}
+                className='menu-dropdown product-dropdown '
+                onMouseEnter={this.dropFabric}
                 onClick={this.dropProduct}
               >
                 <div className='submenu-col-div'>
@@ -311,6 +314,7 @@ export default class Menubar extends Component {
                     className='submenu-nav'
                     style={{ color: 'rgba(0,0,0,0.5)' }}
                     onClick={this.dropProduct}
+                    onMouseEnter={this.dropProduct}
                   >
                     Our Products
                   </Link>
@@ -318,6 +322,7 @@ export default class Menubar extends Component {
                     to='/OurFabric'
                     className='submenu-nav'
                     onClick={this.dropFabric}
+                    onMouseEnter={this.dropFabric}
                   >
                     Our Fabric
                   </Link>
@@ -330,31 +335,31 @@ export default class Menubar extends Component {
                   </Link>
                 </div>
                 <div className='submenu-col-div'>
-                  <Link to='/OurProducts' className='submenu-nav'>
+                  <Link to='/Cotton' className='submenu-nav'>
                     Cotton
                   </Link>
-                  <Link to='/PrivateLabel' className='submenu-nav'>
+                  <Link to='/Felt' className='submenu-nav'>
                     Felt
                   </Link>
-                  <Link to='/PrivateLabel' className='submenu-nav'>
+                  <Link to='/Linen' className='submenu-nav'>
                     Linen
                   </Link>
                 </div>
                 <div className='submenu-col-two'>
                   <div className='smd'>
                     <div className='submenu-col-div'>
-                      <Link to='/PrivateLabel' className='submenu-nav'>
+                      <Link to='/Hemp' className='submenu-nav'>
                         Hemp
                       </Link>
-                      <Link to='/PrivateLabel' className='submenu-nav'>
+                      <Link to='/Recycled' className='submenu-nav'>
                         Recycled
                       </Link>
-                      <Link to='/PrivateLabel' className='submenu-nav'>
+                      <Link to='/Organic' className='submenu-nav'>
                         Organic
                       </Link>
                     </div>
                   </div>
-                  <div className='submenu-divider'>
+                  <div className='submenu-dividers'>
                     <img
                       src='./Images/HomeScreenImages/submenu.png'
                       alt='submenu-img'

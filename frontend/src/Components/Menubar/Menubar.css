@@ -101,6 +101,20 @@
     opacity: 1;
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.product-dropdown {
+  animation: fadeIn 0.1s;
+}
 .submenu-col-one {
   width: 50%;
   position: absolute;
@@ -129,6 +143,14 @@
   padding: 15px 0px 15px 0px;
 }
 .submenu-divider img {
+  width: 100%;
+  height: 100%;
+}
+.submenu-dividers {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+}
+.submenu-dividers img {
   width: 100%;
   height: 100%;
 }
