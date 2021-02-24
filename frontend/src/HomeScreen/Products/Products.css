@@ -366,6 +366,9 @@
     flex-direction: column;
     letter-spacing: 12px;
   }
+  .eco-carousel-text {
+    letter-spacing: 2px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .caro {
