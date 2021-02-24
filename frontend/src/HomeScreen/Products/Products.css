@@ -396,12 +396,6 @@
   .eco-carousel-text {
     letter-spacing: 1px;
   }
-  .footer-row {
-    font-size: 12px;
-  }
-  .ftr-pl {
-    padding-left: 10px;
-  }
 }
 
 @media only screen and (max-width: 375px) {
