@@ -130,7 +130,7 @@ export default class Menubar extends Component {
                 <div className='submenu-col-two'>
                   <div className='submenu-divider smd'>
                     <img
-                      src='./Images/HomeScreenImages/sub-menu.png'
+                      src='./Images/HomeScreenImages/abt-menu.png'
                       alt='submenu-img'
                     />
                   </div>
@@ -162,7 +162,7 @@ export default class Menubar extends Component {
                 <div className='submenu-col-two'>
                   <div className='submenu-divider smd'>
                     <img
-                      src='./Images/HomeScreenImages/sub-menu.png'
+                      src='./Images/HomeScreenImages/abt-menu.png'
                       alt='submenu-img'
                     />
                   </div>
@@ -187,7 +187,7 @@ export default class Menubar extends Component {
                 <div className='submenu-col-two'>
                   <div className='submenu-divider smd'>
                     <img
-                      src='./Images/HomeScreenImages/sub-menu.png'
+                      src='./Images/HomeScreenImages/abt-menu.png'
                       alt='submenu-img'
                     />
                   </div>
@@ -224,7 +224,7 @@ export default class Menubar extends Component {
                 <div className='submenu-col-two'>
                   <div className='submenu-divider smd'>
                     <img
-                      src='./Images/HomeScreenImages/sub-menu.png'
+                      src='./Images/HomeScreenImages/abt-menu.png'
                       alt='submenu-img'
                     />
                   </div>

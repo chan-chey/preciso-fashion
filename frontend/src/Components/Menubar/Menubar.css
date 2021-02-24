@@ -137,8 +137,8 @@
   padding-right: 10px;
 }
 .submenu-col-div {
-  width: 210.14px;
-  height: 25vh;
+  width: 218.14px;
+  height: 31vh;
   display: flex;
   flex-direction: column;
   animation: fade 0.5s;
@@ -148,6 +148,12 @@
   .nav-links a {
     margin-right: 20px;
     font-size: 13px;
+  }
+  .submenu-col-div {
+    width: 175px;
+  }
+  .submenu-col-one {
+    right: 351px;
   }
 }
 .sub-cont {
@@ -160,10 +166,5 @@
   }
   .menu-wrap {
     height: 64px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .submenu-col-one {
-    right: 351px;
   }
 }
