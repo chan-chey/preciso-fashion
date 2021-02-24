@@ -344,13 +344,11 @@
   letter-spacing: 2px;
 }
 @keyframes slide {
-  0% {
+  from {
     transform: translateX(300%);
   }
-  50% {
-    transform: translateX(-10%);
-  }
-  100% {
+
+  to {
     transform: translateX(0%);
   }
 }
@@ -366,6 +364,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    letter-spacing: 12px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -393,6 +392,12 @@
   }
   .eco-carousel-text {
     letter-spacing: 1px;
+  }
+  .footer-row {
+    font-size: 12px;
+  }
+  .ftr-pl {
+    padding-left: 10px;
   }
 }
 

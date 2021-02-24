@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='footer-section'>
             <div className='footer-container'>
                 <div className='footer-row'>
-                    <div className='footer-col border-right'>
+                    <div className='footer-col border-right ftr-pl'>
                         <div className='footer-wrap'>
                             <li>GROUP</li>
                             <li>PRECISO CONCEPTS</li>
