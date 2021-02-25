@@ -77,7 +77,7 @@ export default class Menubar extends Component {
       if (prevScrollpos > currentScrollPos) {
         document.getElementById('navbar').style.top = '63px'
       } else {
-        document.getElementById('navbar').style.top = '0px'
+        document.getElementById('navbar').style.top = '-31vh'
       }
       prevScrollpos = currentScrollPos
     }

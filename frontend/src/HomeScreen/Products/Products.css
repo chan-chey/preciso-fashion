@@ -344,11 +344,10 @@
   letter-spacing: 2px;
 }
 @keyframes slide {
-  from {
+  0% {
     transform: translateX(300%);
   }
-
-  to {
+  100% {
     transform: translateX(0%);
   }
 }
