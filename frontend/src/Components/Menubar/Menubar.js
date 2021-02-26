@@ -107,22 +107,22 @@ export default class Menubar extends Component {
               HOME
             </a>
 
-            <a a onMouseEnter={this.dropAbout} className='menu-link'>
+            <Link to={'/About'} a onMouseEnter={this.dropAbout} className='menu-link'>
               ABOUT US
-            </a>
+            </Link>
             {this.state.dropAboutDiv ? (
               <div
                 className='menu-dropdown'
                 onMouseLeave={this.dropAbout}
               >
                 <div className='submenu-col-one'>
-                  <Link to='/Identity' className='submenu-nav'>
+                  <Link to={'/About'} className='submenu-nav'>
                     Identity
                   </Link>
-                  <Link to='/Vision' className='submenu-nav'>
+                  <Link to={'/About'} className='submenu-nav'>
                     Vision
                   </Link>
-                  <Link to='/Team' className='submenu-nav'>
+                  <Link to={'/About'} className='submenu-nav'>
                     Team
                   </Link>
                 </div>
@@ -279,20 +279,22 @@ export default class Menubar extends Component {
                     Storage
                   </Link>
                 </div>
-                <div className='submenu-col-two '>
-                  <div className='smd'>
-                    <div className='submenu-col-div'>
-                      <Link to='/Accessories' className='submenu-nav'>
-                        Accessories
+                <div className='smd'>
+                  <div className='submenu-col-div'>
+                    <Link to='/Accessories' className='submenu-nav'>
+                      Accessories
                       </Link>
-                      <Link to='/Stationary' className='submenu-nav'>
-                        Stationary
+                    <Link to='/Stationary' className='submenu-nav'>
+                      Stationary
                       </Link>
-                      <Link to='/Promotional' className='submenu-nav'>
-                        Promotional
+                    <Link to='/Promotional' className='submenu-nav'>
+                      Promotional
                       </Link>
-                    </div>
                   </div>
+                </div>
+
+                <div className='submenu-col-two '>
+
                   <div className='submenu-dividers  '>
                     <img
                       src='./Images/HomeScreenImages/submenu.png'
@@ -334,6 +336,19 @@ export default class Menubar extends Component {
                     Private Label
                   </Link>
                 </div>
+                <div className='smd'>
+                  <div className='submenu-col-div'>
+                    <Link to='/Hemp' className='submenu-nav'>
+                      Hemp
+                      </Link>
+                    <Link to='/Recycled' className='submenu-nav'>
+                      Recycled
+                      </Link>
+                    <Link to='/Organic' className='submenu-nav'>
+                      Organic
+                      </Link>
+                  </div>
+                </div>
                 <div className='submenu-col-div'>
                   <Link to='/Cotton' className='submenu-nav'>
                     Cotton
@@ -346,19 +361,6 @@ export default class Menubar extends Component {
                   </Link>
                 </div>
                 <div className='submenu-col-two'>
-                  <div className='smd'>
-                    <div className='submenu-col-div'>
-                      <Link to='/Hemp' className='submenu-nav'>
-                        Hemp
-                      </Link>
-                      <Link to='/Recycled' className='submenu-nav'>
-                        Recycled
-                      </Link>
-                      <Link to='/Organic' className='submenu-nav'>
-                        Organic
-                      </Link>
-                    </div>
-                  </div>
                   <div className='submenu-dividers'>
                     <img
                       src='./Images/HomeScreenImages/submenu.png'

@@ -1,5 +1,5 @@
 .hero-banner {
-  height: 31vh;
+  height: 25vh;
   width: 100%;
   position: relative;
 }
@@ -326,6 +326,7 @@
 }
 .caro {
   animation: slide 3s;
+  height: 100%;
   text-align: center;
   font-family: 'robotoMedium';
   font-size: 124px;

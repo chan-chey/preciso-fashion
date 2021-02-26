@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import ContactForm from './Components/ContactForm/ContactForm';
 import Footer from './Components/Footer/Footer';
+import About from './Pages/About/About';
 
 export default class App extends Component {
   render() {
@@ -18,6 +19,7 @@ export default class App extends Component {
         <Switch>
           <Route path="/" component={HomeScreenRoute} exact />
           <Route path="/ContactUs" render={() => (<ContactForm />)} />
+          <Route path="/About" render={() => (<About />)} />
         </Switch>
         <Footer />
       </MemoryRouter>

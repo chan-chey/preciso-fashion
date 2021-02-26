@@ -38,7 +38,7 @@
   width: max-content;
   margin-right: 40px;
   font-family: 'rutan';
-  font-size: 15px;
+  font-size: 14px;
   text-decoration: none;
 }
 .nav-links a:hover {
@@ -68,7 +68,7 @@
 .menu-dropdown {
   position: absolute;
   width: 100%;
-  height: 32vh;
+  height: 26vh;
   top: 30px;
   background-color: rgba(255, 255, 255, 0.88);
   animation: drop 0.7s;
@@ -90,7 +90,7 @@
     height: 0vh;
   }
   100% {
-    height: 31vh;
+    height: 25vh;
   }
 }
 @keyframes fade {
@@ -115,7 +115,7 @@
 .submenu-col-one {
   width: 50%;
   position: absolute;
-  height: 31vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   animation: fade 0.5s;
@@ -125,7 +125,7 @@
 .submenu-col-two {
   width: 50%;
   animation: fade 0.5s;
-  height: 31vh;
+  height: 25vh;
   display: flex;
 }
 .submenu-nav {
@@ -145,7 +145,7 @@
 }
 .submenu-dividers {
   width: 100%;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 5px;
 }
 .submenu-dividers img {
   width: 100%;
@@ -157,7 +157,7 @@
 }
 .submenu-col-div {
   width: 218.14px;
-  height: 31vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   animation: fade 0.5s;
