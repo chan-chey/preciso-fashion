@@ -198,8 +198,8 @@ export default class Menubar extends Component {
             {this.state.dropCollectionDiv ? (
               <div
                 className='menu-dropdown'
-                onMouseLeave={this.dropHome}
-                onClick={this.dropHome}
+                onMouseLeave={this.dropCollection}
+                onClick={this.dropCollection}
               >
                 <div className='submenu-col-one'>
                   <Link
@@ -244,7 +244,6 @@ export default class Menubar extends Component {
                     to='/OurProducts'
                     className='submenu-nav'
                     onClick={this.dropProduct}
-                    onMouseEnter={this.dropProduct}
                   >
                     Our Products
                   </Link>
@@ -308,6 +307,7 @@ export default class Menubar extends Component {
               <div
                 className='menu-dropdown product-dropdown '
                 onMouseEnter={this.dropFabric}
+                onMouseLeave={this.dropFabric}
                 onClick={this.dropProduct}
               >
                 <div className='submenu-col-div'>
@@ -324,7 +324,6 @@ export default class Menubar extends Component {
                     to='/OurFabric'
                     className='submenu-nav'
                     onClick={this.dropFabric}
-                    onMouseEnter={this.dropFabric}
                   >
                     Our Fabric
                   </Link>

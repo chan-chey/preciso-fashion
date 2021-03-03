@@ -1,0 +1,92 @@
+.fabric-section {
+    height: 100%;
+    width: 100%;
+}
+
+.fabric-group {
+    display: flex;
+    height: 75vh;
+    width: 100%;
+}
+
+.fab-col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.fab-title {
+    font-family: 'robotoThin';
+    color: #444444;
+    font-size: 40px;
+    text-align: left;
+    width: 75%;
+}
+
+.fab-text {
+    font-family: 'robotoRegular';
+    width: 75%;
+    text-align: justify;
+    color: #444444;
+    font-size: 16px;
+}
+
+.fab-col-2 {
+    display: flex;
+    width: 50%;
+}
+
+.fab-img-col1,
+.fab-img-col2 {
+    width: 50%;
+    height: 100%;
+}
+
+.fab-img-col1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+}
+
+.fab-img-col1 img {
+    height: 50%;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.fab-img-col2 img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.cotton-section {
+    background: url('./banc.png');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cotton-title {
+    text-align: center;
+}
+
+.cotton-text {
+    text-align: justify;
+    width: 33%;
+}
+
+.felt-section {
+    background: url('./felt.png');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
