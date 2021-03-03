@@ -76,7 +76,51 @@ function OurFabric() {
                     different clients and brands worldwide.
                 </div>
             </div>
-
+            <div className='linen-section'>
+                <div className='linen-card'>
+                    <div className='fab-title linen-title'>Linen</div>
+                    <div className='fab-text linen-text'>
+                        We have a vision to have our presence felt in homes and lives
+                        everywhere and to fulfill this goal, we design and curate a wide
+                        variety of home décor and home furnishing products which cater to
+                        different clients and brands worldwide.
+                    </div>
+                </div>
+            </div>
+            <div className='hemp-section'>
+                <div className='hemp-row-one'>
+                    <div className='fab-title hemp-title'>Hemp</div>'
+                    <div className='fab-text hemp-text'>
+                        We have a vision to have our presence felt in homes and lives
+                        everywhere and to fulfill this goal, we design and curate a wide
+                        variety of home décor and home furnishing products which cater to
+                        different clients and brands worldwide.
+                    </div>
+                </div>
+                <div className='hemp-row-two'>
+                    <img src='./Images/Fabric/hemp.png' alt='hemp-img' />
+                </div>
+            </div>
+            <div className='fab-last'>
+                <div className='recycle-col'>
+                    <img src='./Images/Fabric/recycle.png' alt='recycle-img' />
+                    <div className='fab-title rec-title'>Recycled</div>
+                    <div className='fab-text rec-text'>
+                        We have a vision to have our presence felt in homes and lives everywhere and to fulfill this goal,
+                        we design and curate a wide variety of home décor and home furnishing products which cater
+                        to different clients and brands worldwide.
+                    </div>
+                </div>
+                <div className='organic-col'>
+                    <img src='./Images/Fabric/organic.png' alt='organic-img' />
+                    <div className='fab-title rec-title'>Organic</div>
+                    <div className='fab-text rec-text'>
+                        We have a vision to have our presence felt in homes and lives everywhere and to fulfill this goal,
+                        we design and curate a wide variety of home décor and home furnishing products which
+                        cater to different clients and brands worldwide.
+                    </div>
+                </div>
+            </div>
         </React.Fragment>
     )
 }
