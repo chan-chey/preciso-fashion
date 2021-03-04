@@ -305,10 +305,10 @@ export default class Menubar extends Component {
             ) : null}
             {this.state.dropFabricDiv ? (
               <div
-                className='menu-dropdown product-dropdown '
+                className='menu-dropdown product-dropdown'
                 onMouseEnter={this.dropFabric}
                 onMouseLeave={this.dropFabric}
-                onClick={this.dropProduct}
+                onClick={this.dropFabric}
               >
                 <div className='submenu-col-div'>
                   <Link
