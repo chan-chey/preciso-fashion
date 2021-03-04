@@ -68,8 +68,8 @@ export default function OurProducts() {
             <div className='tab-section'>
                 <div className='table-col1'><img src='./Images/Products/4.png' alt='prd-img' /></div>
                 <div className='table-col2'>
-                    <div className='product-title tab-title'>Tableware</div>
-                    <div className='product-text'>
+                    <div className='OurProducts-title tab-title'>Tableware</div>
+                    <div className='OurProducts-text'>
                         We have a vision to have our presence felt in homes and lives everywhere and to fulfill this goal,
                         we design and curate a wide variety of home décor and home furnishing products which cater to different clients and brands worldwide.
                     </div>
