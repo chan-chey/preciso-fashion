@@ -3,6 +3,7 @@ import './OurProducts.css'
 import Carousel from 'react-bootstrap/Carousel'
 
 export default function OurProducts() {
+
     return (
         <React.Fragment>
             <Carousel className='hero-banner' indicators={false}>
@@ -38,7 +39,7 @@ export default function OurProducts() {
                 </Carousel.Item>
             </Carousel>
 
-            <div className='bag-section'>
+            <div className='bag-section' id='bag'>
                 <div className='bag-col-1'>
                     <div className='OurProducts-title'>Bags</div>
                     <div className='OurProducts-text'>
@@ -58,14 +59,14 @@ export default function OurProducts() {
                     </div>
                 </div>
             </div>
-            <div className='gift-section'>
+            <div className='gift-section' id='gift'>
                 <div className='OurProducts-title gift-title'>Gifts</div>
                 <div className='OurProducts-text gift-text'>
                     We have a vision to have our presence felt in homes and lives everywhere and to fulfill this goal,
                     we design and curate a wide variety of home décor and home furnishing products which cater to different clients and brands worldwide.
                 </div>
             </div>
-            <div className='tab-section'>
+            <div className='tab-section' id='table'>
                 <div className='table-col1'><img src='./Images/Products/4.png' alt='prd-img' /></div>
                 <div className='table-col2'>
                     <div className='OurProducts-title tab-title'>Tableware</div>
@@ -75,7 +76,7 @@ export default function OurProducts() {
                     </div>
                 </div>
             </div>
-            <div className='storage-section'>
+            <div className='storage-section' id='storage'>
                 <div className='str-col1'>
                     <div className='OurProducts-title'>Storage</div>
                     <div className='OurProducts-text'>
@@ -89,7 +90,7 @@ export default function OurProducts() {
                     <img src='./Images/Products/5.png' alt='prd-img' />
                 </div>
             </div>
-            <div className='acc-section'>
+            <div className='acc-section' id='accessory'>
                 <div className='acc-col1'>
                     <div className='acc-row1'>
                         <img src='./Images/Products/6.png' alt='acc-img' />
@@ -109,7 +110,7 @@ export default function OurProducts() {
                     </div>
                 </div>
             </div>
-            <div className='storage-section'>
+            <div className='storage-section' id='stationery'>
                 <div className='str-col1'>
                     <div className='OurProducts-title'>Stationary</div>
                     <div className='OurProducts-text'>
@@ -121,7 +122,7 @@ export default function OurProducts() {
                     <img src='./Images/Products/5.png' alt='prd-img' />
                 </div>
             </div>
-            <div className='tab-section'>
+            <div className='tab-section' id='promotional'>
                 <div className='table-col1'><img src='./Images/Products/10.png' alt='prd-img' /></div>
                 <div className='table-col2'>
                     <div className='OurProducts-title '>Promotional</div>

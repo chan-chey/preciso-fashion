@@ -1,8 +1,10 @@
 import './Menubar.css'
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from "react-router-hash-link";
 
 export default class Menubar extends Component {
+
+
   constructor(props) {
     super(props)
     this.state = {
@@ -71,6 +73,13 @@ export default class Menubar extends Component {
   }
 
   render() {
+
+    const scrollWithOffset = (el) => {
+      const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+      const yOffset = -80;
+      window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+    }
+
     var prevScrollpos = window.pageYOffset
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset
@@ -138,6 +147,8 @@ export default class Menubar extends Component {
               </div>
             ) : null}
 
+
+
             <a onMouseEnter={this.dropExpert} className='menu-link'>
               OUR EXPERTISE
             </a>
@@ -194,6 +205,8 @@ export default class Menubar extends Component {
               </div>
             ) : null}
 
+
+
             <a onMouseEnter={this.dropCollection}>COLLECTIONS</a>
             {this.state.dropCollectionDiv ? (
               <div
@@ -233,6 +246,8 @@ export default class Menubar extends Component {
               </div>
             ) : null}
 
+
+
             {this.state.dropProductDiv ? (
               <div
                 className='menu-dropdown product-dropdown'
@@ -265,35 +280,33 @@ export default class Menubar extends Component {
                   </Link>
                 </div>
                 <div className='submenu-col-div sub-cont'>
-                  <Link to='/Bags' className='submenu-nav'>
+                  <Link to='/OurProducts#bag' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Bags
                   </Link>
-                  <Link to='/Gifts' className='submenu-nav'>
+                  <Link to='/OurProducts/#gift' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Gifts
                   </Link>
-                  <Link to='/Tableware' className='submenu-nav'>
+                  <Link to='/OurProducts/#table' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Tableware
                   </Link>
-                  <Link to='/Storage' className='submenu-nav'>
+                  <Link to='/OurProducts/#storage' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Storage
                   </Link>
                 </div>
                 <div className='smd'>
                   <div className='submenu-col-div'>
-                    <Link to='/Accessories' className='submenu-nav'>
+                    <Link to='/OurProducts/#accessory' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                       Accessories
                       </Link>
-                    <Link to='/Stationary' className='submenu-nav'>
-                      Stationary
+                    <Link to='/OurProducts/#stationery' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
+                      Stationery
                       </Link>
-                    <Link to='/Promotional' className='submenu-nav'>
+                    <Link to='/OurProducts/#promotional' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                       Promotional
                       </Link>
                   </div>
                 </div>
-
                 <div className='submenu-col-two '>
-
                   <div className='submenu-dividers  '>
                     <img
                       src='./Images/HomeScreenImages/submenu.png'
@@ -303,6 +316,9 @@ export default class Menubar extends Component {
                 </div>
               </div>
             ) : null}
+
+
+
             {this.state.dropFabricDiv ? (
               <div
                 className='menu-dropdown product-dropdown'
@@ -321,9 +337,10 @@ export default class Menubar extends Component {
                     Our Products
                   </Link>
                   <Link
-                    to='/OurFabric'
+                    to='/OurFabric/#fabric'
                     className='submenu-nav'
                     onClick={this.dropFabric}
+                    scroll={el => scrollWithOffset(el)}
                   >
                     Our Fabric
                   </Link>
@@ -337,25 +354,25 @@ export default class Menubar extends Component {
                 </div>
                 <div className='smd'>
                   <div className='submenu-col-div'>
-                    <Link to='/Hemp' className='submenu-nav'>
+                    <Link to='/OurFabric#hemp' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                       Hemp
                       </Link>
-                    <Link to='/Recycled' className='submenu-nav'>
+                    <Link to='/OurFabric#recycle' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                       Recycled
                       </Link>
-                    <Link to='/Organic' className='submenu-nav'>
+                    <Link to='/OurFabric#organic' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                       Organic
                       </Link>
                   </div>
                 </div>
                 <div className='submenu-col-div'>
-                  <Link to='/Cotton' className='submenu-nav'>
+                  <Link to='/OurFabric#cotton' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Cotton
                   </Link>
-                  <Link to='/Felt' className='submenu-nav'>
+                  <Link to='/OurFabric#felt' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Felt
                   </Link>
-                  <Link to='/Linen' className='submenu-nav'>
+                  <Link to='/OurFabric#linen' className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Linen
                   </Link>
                 </div>
