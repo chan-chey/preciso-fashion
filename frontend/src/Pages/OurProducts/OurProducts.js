@@ -3,6 +3,10 @@ import './OurProducts.css'
 import Carousel from 'react-bootstrap/Carousel'
 
 export default function OurProducts() {
+    const scrollToTop = () => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 
     return (
         <React.Fragment>
@@ -122,7 +126,7 @@ export default function OurProducts() {
                     <img src='./Images/Products/5.png' alt='prd-img' />
                 </div>
             </div>
-            <div className='tab-section' id='promotional'>
+            <div className='tab-section bc' id='promotional'>
                 <div className='table-col1'><img src='./Images/Products/10.png' alt='prd-img' /></div>
                 <div className='table-col2'>
                     <div className='OurProducts-title '>Promotional</div>
@@ -130,6 +134,7 @@ export default function OurProducts() {
                         We have a vision to have our presence felt in homes and lives everywhere and to fulfill this goal,
                         we design and curate a wide variety of home décor and home furnishing products which cater to different clients and brands worldwide.
                     </div>
+                    <img src='./Images/Fabric/bc-top.svg' className='back-to-top' alt='bc-top-img' onClick={scrollToTop} />
                 </div>
             </div>
         </React.Fragment>

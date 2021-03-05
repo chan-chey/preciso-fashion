@@ -155,3 +155,13 @@
 #recycle {
   padding-bottom: 10px;
 }
+.bc {
+  position: relative;
+}
+.back-to-top {
+  position: absolute;
+  width: 30px !important;
+  height: 30px !important;
+  bottom: 30px;
+  right: 30px;
+}

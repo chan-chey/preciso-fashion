@@ -1,11 +1,16 @@
 import React from 'react'
 import './OurFabric.css'
 import Carousel from 'react-bootstrap/Carousel'
+import { Link } from 'react-router-dom'
 
 function OurFabric() {
+    const scrollToTop = () => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
     return (
         <React.Fragment>
-            <div className='fabric-section'>
+            <div className='fabric-section' id='#'>
                 <Carousel className='hero-banner' indicators={false}>
                     <Carousel.Item interval={3000} className='hero-banner-img'>
                         <img
@@ -135,7 +140,7 @@ function OurFabric() {
                 </div>
             </div>
 
-            <div className='felt-section ' id='recycle'>
+            <div className='felt-section bc' id='recycle'>
                 <div className='fab-col1 rec-col'>
                     <img src='./Images/Fabric/recycle.png' alt='felt-img' className='rec-img' />
                 </div>
@@ -147,6 +152,7 @@ function OurFabric() {
                         variety of home décor and home furnishing
                         products which cater to different clients and brands worldwide.
                     </div>
+                    <img src='./Images/Fabric/bc-top.svg' className='back-to-top' alt='bc-top-img' onClick={scrollToTop} />
                 </div>
             </div>
         </React.Fragment >
