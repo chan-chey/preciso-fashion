@@ -125,13 +125,13 @@ export default class Menubar extends Component {
                 onMouseLeave={this.dropAbout}
               >
                 <div className='submenu-col-one'>
-                  <Link to={'/About'} className='submenu-nav'>
+                  <Link to={'/About/#identity'} className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Identity
                   </Link>
-                  <Link to={'/About'} className='submenu-nav'>
+                  <Link to={'/About/#vision'} className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Vision
                   </Link>
-                  <Link to={'/About'} className='submenu-nav'>
+                  <Link to={'/About/#team'} className='submenu-nav' scroll={el => scrollWithOffset(el)}>
                     Team
                   </Link>
                 </div>
